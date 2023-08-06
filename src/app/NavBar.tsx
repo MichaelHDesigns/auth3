@@ -132,7 +132,6 @@ const NavBar: React.FC = () => {
     google: '/google.svg',
     github: '/github.svg',
     discord: '/discord.svg',
-    facebook: '/facebook.svg',
     metamask: '/metamask.png',
     trust: '/trust.png',
     phantom: '/phantom.png',
@@ -271,7 +270,7 @@ const NavBar: React.FC = () => {
                 </div>
 <div className="menu-group">
   <ul>
-    {['google', 'github', 'facebook', 'discord'].map((provider) => (
+    {['google', 'github', 'discord'].map((provider) => (
       <li key={provider}>
         <a href="#" onClick={() => handleSignIn(provider)}>
           <div className="provider-item">
