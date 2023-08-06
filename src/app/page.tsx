@@ -3,7 +3,7 @@ import Image from 'next/legacy/image'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-<p> Currenlty Building Your New Service!!! </ p>
+<p> Currently Building Your New Service!!! </ p>
     </main>
   )
 }
